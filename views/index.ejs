@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="username-box">
+            <input type="text" id="username" autocomplete="off" placeholder="Change Username">
+            <button type="submit" id="send_username">Change Username</ type="submit">
+        </div>
+
+        <div id="chatroom">
+            <div id="typing"></div>
+        </div>
+
+        <div id="message-box">
+            <input type="text" id="message" autocomplete="off" placeholder="Type here">
+            <button type="submit" id="send_message">Send</button>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/chat.js"></script>
+    
+</body>
+</html>

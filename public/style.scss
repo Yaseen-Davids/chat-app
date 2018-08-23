@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+#username-box{
+    input{
+        outline: none;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        width: 300px;
+    }
+    button{
+        outline: none;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        background: black;
+        color: white;
+    }
+}
+
+#chatroom{
+    border: 1px solid black;
+    height: 550px;
+    background: rgb(230, 230, 245);
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+
+    p{
+        font-size: 1.2em;
+        padding: 10px;
+        border: 1px solid grey;
+    }
+
+    .userName{
+        font-weight: bolder;
+    }
+
+    .typing{
+        font-style: italic;
+    }
+}
+
+#message-box{
+    input{
+        outline: none;
+        float: left;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        width: 92%;
+    }
+    button{
+        float: right;
+        outline: none;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        background: black;
+        color: white;
+        width: 7%;
+    }
+}
